@@ -21,5 +21,11 @@
 /*
 	There might be a popup that you cannot close. Run any query and you should be able to close it.
 	Example query:
+
+SELECT * FROM users;*/
+
+/* 
+	1. Find the total number of users.
 */
-SELECT * FROM users;
+select count(*) user_count from users;
+

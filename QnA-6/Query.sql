@@ -26,3 +26,7 @@ user_metrics as(
 
 select * from user_metrics
 where video_clip_helped = 'Yes' or hints_helped = 'Yes';
+
+/* As per the analysis, we can observe that the video action helped
+better than hint, which has larger acceptance from audiences, so 
+we can come conclude that video helps better*/
